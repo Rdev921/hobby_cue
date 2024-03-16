@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&family=Poopins:wght@100;200;300;400;500;600;700&family=Montserrat:wght@400;700&family=Mulish:wght@300&family=Poppins:wght@300;400;600&family=Urbanist:wght@300;400;600;700;800;900&display=swap');
+
+.hero-section {
+  background-color: #f7f5f9;
+
+}
+
+.search-icon {
+  width: 20%;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background-color: #B197FC;
+
+}
+
+
+
+/* ***********************Banner Section******************* */
+
+.title {
+  font-family: 'Poppins';
+  font-size: 26px;
+  font-weight: 600;
+  font-style: italic;
+  line-height: 54px;
+  text-align: left;
+
+}
+
+.description {
+  font-family: 'Poppins';
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0.02em;
+  text-align: left;
+
+}
+
+.banner-image {
+  /* position: absolute; */
+  width: 550px;
+}
+
+.banner-image img {
+  width: 100%;
+  height: 100%;
+}
+
+/* *****************Sign in and Join in************* */
+.btn {
+  border: 1px solid rgb(128, 100, 162);
+  background-color: transparent;
+  margin-bottom: 1rem;
+  width: 73%;
+  font-weight: bold;
+}
+
+.btn-link {
+  font-weight: bold;
+  color: rgb(128, 100, 162);
+  text-decoration: none;
+}
+
+.connect-with {
+  position: relative;
+  /* margin-left: 20%; */
+}
+
+.connect-with::before {
+  position: absolute;
+  top: 12px;
+  content: "";
+  width: 150px;
+  height: 2px;
+  background-color: #000000;
+
+}
+
+.connect-with p::after {
+  position: absolute;
+  top: 12px;
+  content: "";
+  width: 150px;
+  height: 2px;
+  background-color: red;
+}
+
+/* ***************card section*************** */
+.text-with-icon {
+  width: 508px;
+}
+
+.action-btn {
+  border: 1px solid rgb(128, 100, 162);
+  padding: .5rem 0;
+  border-radius: 5px;
+  color: rgb(128, 100, 162);
+  background-color: transparent;
+  margin-bottom: 1rem;
+  width: 25%;
+  font-size: 14px;
+}
